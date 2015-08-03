@@ -15,10 +15,10 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency 'thor', '~> 0.19'
 
-  gem.add_development_dependency 'yard', '>= 0.8.6.1', '< 0.9'
-  gem.add_development_dependency 'rspec', '>= 2.13', '< 3'
+  gem.add_development_dependency 'rspec', '>= 3.3', '< 4'
+  gem.add_development_dependency 'yard', '>= 0.8.7.6', '< 0.9'
   gem.add_development_dependency 'rake', '>= 10', '< 20'
-  gem.add_development_dependency 'bundler', '>= 1.3.5', '< 2'
+  gem.add_development_dependency 'bundler', '>= 1.10', '< 2'
 
   # common
 
