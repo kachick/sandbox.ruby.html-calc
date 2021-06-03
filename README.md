@@ -1,7 +1,6 @@
 htmlcalc.rb
 =======================
 
-[![Build Status](https://secure.travis-ci.org/kachick/sandbox.ruby.html-calc.png)](http://travis-ci.org/kachick/calc.rb)
 
 Description
 -----------
@@ -9,22 +8,15 @@ Description
 Rack触って見るための砂場。
 セッション無しでJavaScript無しでHTMLのみの電卓作るとしたらみたいなこと考えていじってた
 
-Features
---------
-
-
 Usage
 -----
 
+Tested on Ruby 3.0.1
+
 ```shell
-cd ./bin
-rackup
+./bin/setup
+bundle exec rackup ./bin/config.ru -s puma
 ```
-
-Requirements
--------------
-
-* Ruby - [2.2 or later](http://travis-ci.org/#!/kachick/sandbox.ruby.html-calc)
 
 License
 --------
